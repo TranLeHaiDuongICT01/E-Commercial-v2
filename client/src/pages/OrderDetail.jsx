@@ -55,7 +55,7 @@ const OrderDetail = () => {
                   ""}
               </td>
               <td>
-                {order?.payment_method_details?.card?.brand || data
+                {order?.payment_method_details?.card?.brand
                   ? "Paypal"
                   : "XTZ"}
               </td>
